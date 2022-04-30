@@ -1,0 +1,369 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  color: rgb(101, 100, 100);
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  margin: 12px;
+  align-items: center;
+}
+
+.header-left{
+  width: 140px;
+  height: 30px;
+  background: url("../img/estra_logo.png") no-repeat;
+  background-size: contain;
+}
+
+.header-right{
+  padding-right: 10px;
+  margin: 0 0 0 auto;
+}
+
+.header-right-list{
+  display: flex;
+}
+
+.header-right-list-item{
+  margin-right: 24px;
+}
+
+.fv-sec{
+  position: relative;
+  height: 100vh;
+}
+
+.fv_img{
+  position: absolute;
+  width: 61%;
+  right: 0;
+}
+
+.fv_inner{
+  position: absolute;
+  top: 80px;
+  left: 20%;
+}
+
+.fv_title_text{
+  padding: 20px;
+  line-height: 100px;
+  font-family: 'Indie Flower',cursive;
+  font-size: 60px;
+  color: rgb(166, 12, 87);
+}
+
+.fv_content{
+  padding: 20px;
+  line-height: 28px;
+}
+
+.fv_content_subtitle{
+  margin-bottom: 3px;
+  color: rgb(166, 12, 87);
+  font-size: 24px;
+}
+
+.fv_green{
+  color: rgb(5, 164, 161);
+}
+
+.outer {
+  padding: 80px;
+}
+.inner{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.title{
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.pink-subtitle{
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Indie Flower',cursive;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(166, 12, 87);
+}
+
+.sec1 .outer{
+  display: flex;
+  justify-content: center;
+}
+
+.sec1 .inner{
+  padding: 0 23%;
+}
+
+.sec1 .item{
+  border-top: 2px solid rgb(200, 197, 197);
+  border-bottom: 2px solid rgb(200, 197, 197);
+  padding: 24px 0;
+}
+
+.sec1 .item_row{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid rgb(209, 207, 207);
+  padding: 16px 0;
+}
+
+.sec1 .item_date, .sec1 .item_text{
+  padding: 4px 0;
+}
+
+.pinknews{
+  display: inline-block;
+  width: 6vw;
+  border-radius: 16px;
+  margin: 0 28px;
+  padding: 4px;
+  background-color: rgb(166, 12, 87);
+  color: white;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.sec2 .outer{
+  padding: 50px 80px;
+  background-color: rgb(245, 244, 244);
+}
+
+.sec2 .top{
+  text-align: center;
+}
+
+.sec2 .item{
+  display: flex;
+}
+
+.sec2 .item_left p{
+  padding-bottom: 16px;
+  width: 75%;
+  line-height: 30px;
+}
+
+.sec2 .item_right{
+  margin: 0 0 0 auto;
+  width: 750px;
+}
+
+.sec3 .item{
+  display: flex;
+  line-height: 30px;
+  color: white;
+}
+
+.sec3 .item .content_title{
+  padding: 10px 0;
+}
+
+.sec3 .item img{
+  width: 32%;
+}
+
+.sec3 .item_left{
+  padding: 20px;
+  width: 50%;
+  background-color: rgb(166, 12, 87);
+  box-sizing: border-box;
+}
+
+.sec3 .item_left .content_title, .sec3 .item_left .image{
+  text-align: center;
+}
+
+.sec3 .item_left .text{
+  margin: 0 26px;
+}
+
+.sec3 .item_right{
+  width: 50%;
+}
+
+.sec3 .item_right1, .sec3 .item_right2{
+  display: flex;
+  padding: 18px 15px;
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.sec3 .item_right .content {
+  padding: 10px;
+}
+
+.sec3 .item_right1{
+  background-color: rgb(191, 90, 144);
+}
+
+.sec3 .item_right2{
+  background-color: rgb(172, 132, 156);
+}
+
+.sec4 .outer {
+  padding: 30px 80px;
+  background-color: rgb(245, 244, 244);
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  position: relative;
+  width: 30%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card_top{
+  position: absolute;
+  padding: 10px 20px;
+  background-color: rgb(166, 12, 87);
+  border-top-left-radius: 20px;
+  color: white;
+}
+
+.card_img img{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card_unit{
+  padding: 20px 20px;
+}
+
+.card_content .text{
+  line-height: 24px;
+}
+
+.card_bottom{
+  display: flex;
+  margin-top: 36px;
+  font-size: 1vw;
+}
+
+.card_bottom .tag{
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+
+.sec5_button{
+  text-align: center;
+}
+
+.sec5_button a{
+  display: inline-block;
+  margin: 30px;
+  padding: 20px 40px;
+  border: 2px solid rgb(166, 12, 87);
+  border-radius: 30px;
+  background-color: white;
+  color: rgb(166, 12, 87);
+  font-weight: bold;
+}
+
+.sec5 .inner{
+  padding: 0 10em;
+  width: 65%;
+}
+
+.sec5 table{
+  width: 100%;
+  border: solid 1px rgb(204, 203, 203);
+}
+
+.sec5 th, .sec5 td{
+  padding: 20px;
+  border: solid 1px rgb(204, 203, 203) ;
+}
+
+.sec5 th{
+  width: 30%;
+  background-color: rgb(245, 244, 244);
+  text-align: left;
+}
+
+.sec6 .container{
+  display: flex;
+  width: 100%;
+}
+
+.sec6 .item_left, .sec6 .item_right{
+  position: relative;
+  width: 50%;
+}
+
+.sec6 .item_left_text, .sec6 .item_right_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+}
+
+.contact_text{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.middle{
+  margin: 20px 0;
+  width: 50%;
+  height: 40px;
+  border-right: 3px solid rgb(166, 12, 87);
+}
+
+.contact_button{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 2em 3.5em;
+  width: 10em;
+  border-radius: 50px;
+  background: linear-gradient(90deg,rgb(248, 20, 130) ,rgb(166, 12, 87));
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 0.5em 0 rgb(136, 13, 73);
+}
+
+.contact_button::before{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/mailicon.svg);
+  background-size: cover;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.footer_text{
+  padding: 25px;
+  text-align: center;
+  background-color: rgb(245, 244, 244); 
+}
